@@ -426,10 +426,6 @@ html body ul.sf-menu ul,html body ul.sf-menu ul li {
 }
 
 html body ul.sf-menu li { 
-  margin: 0 25px 0 0;
-}
-
-html body ul.sf-menu li.sf-parent {
   margin: 0 50px 0 0;
 }
 
