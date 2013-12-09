@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Popups</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="../js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="../index.html">Poppin<span class="logo_colour">' Popups</span></a></h1>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/javascript.html">Javascript</a></li>
+            <li><a href="../pages/page.html">A Page</a></li>
+            <li><a href="../pages/another_page.html">Another Page</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h2>Alert Stuff</h2>
+          <h5 id="alert"></h5>
+        </div>
+        <div class="sidebar">
+          <h2>Confirm Stuff</h2>
+          <h5 id="confirm"></h5>
+        </div>
+        <div class="sidebar">
+          <h2>Prompt Stuff</h2>
+          <h5 id="prompt"></h5>
+        </div>
+        <div class="sidebar">
+          <h2>Other Stuff</h2>
+          <div id="other"></div>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Javascript Popups</h1>
+        <p>This page contains examples of many ways to build popups from pure javascript. Use this page for reference, whilst you build your website.</p>
+        <h4>alert()</h4>
+          <ul>
+            <li><a onclick="empty_alert()">-Try-</a> Empty.</li>
+            <li><a onclick="basic_alert()">-Try-</a> Basic.</li>
+            <li><a onclick="formatted_alert()">-Try-</a> Formatted.</li>
+            <li><a onclick="text_from_div_alert()">-Try-</a> Get text from div and put into alert().</li>
+            <li><a onclick="create_alert_link_easy()">-Try-</a> (Easy) Create link to alert() using javascript.</li>
+            <li><a onclick="create_alert_link_advanced()">-Try-</a> (Advanced) Create link to alert() using javascript.</li>
+          </ul>
+        <h4>confirm()</h4>
+          <ul>
+            <li><a onclick="empty_confirm()">-Try-</a> Empty.</li>
+            <li><a onclick="basic_confirm()">-Try-</a> Basic.</li>
+            <li><a onclick="formatted_confirm()">-Try-</a> Formatted.</li>
+          </ul>
+        <h4>prompt()</h4>
+          <ul>
+            <li><a onclick="empty_prompt()">-Try-</a> Empty.</li>
+            <li><a onclick="basic_prompt()">-Try-</a> Basic.</li>
+            <li><a onclick="formatted_prompt()">-Try-</a> Formatted.</li>
+          </ul>
+        <h1>Something wordy</h1>
+        <h2>Something wordy</h2>
+        <h3>Something wordy</h3>
+        <h4>Something wordy</h4>
+        <h5>Something wordy</h5>
+        <h6>Something wordy</h6>
+      </div>
+    </div>
+    <footer>
+      <p><a href="http://www.css3templates.co.uk">design from css3templates.co.uk</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <script type="text/javascript" src="../js/javascript_popups.js"></script>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="../js/jquery.sooperfish.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
+</html>

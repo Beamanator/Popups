@@ -8,5 +8,5 @@ After the pure js I will learn JQuery and other libraries / frameworks that enab
 TODO:
 1) Decide on layout
   - Maybe 1 menu bar per type [js, jquery, etc.]
-2) Get rid of contact.php everywhere
-3) organize files
+2) organize files
+3) rename files
